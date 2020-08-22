@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-  <h1>帳號<input type="text" placeholder="your id"/></h1>
+  <h1>帳號<input type="text" placeholder="your email"/></h1>
   <h1>密碼<input type="text" placeholder="your password"/></h1>
   </div>
 </template>
