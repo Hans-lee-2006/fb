@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img class="draggable" alt="Vue logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+    <img class="drag" alt="Vue logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
